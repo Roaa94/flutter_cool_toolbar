@@ -10,8 +10,7 @@ class CoolToolbar extends StatefulWidget {
   _CoolToolbarState createState() => _CoolToolbarState();
 }
 
-class _CoolToolbarState extends State<CoolToolbar>
-    with SingleTickerProviderStateMixin {
+class _CoolToolbarState extends State<CoolToolbar> {
   late ScrollController scrollController;
 
   double get itemHeight =>
